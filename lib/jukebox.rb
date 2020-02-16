@@ -16,7 +16,7 @@ def play(songs)
     puts "Playing #{song[input - 1]}"
   elsif songs.inlcude?(input)
     song = songs.find{ |item| input == item}
-    puts "Playing "
+    puts "Playing #{song}"
   else
     
     
