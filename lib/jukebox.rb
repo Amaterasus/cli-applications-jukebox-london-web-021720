@@ -15,7 +15,7 @@ def play(songs)
   if input.to_i > 0 && input.to_i <= songs.length
     puts "Playing #{song[input - 1]}"
   elsif songs.inlcude?(input)
-    song = songs.find()
+    song = songs.find{ |item| }
     puts 
   else
     
