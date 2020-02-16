@@ -18,6 +18,7 @@ def play(songs)
     song = songs.find{ |item| input == item}
     puts "Playing #{song}"
   else
+    puts ""
     
     
   
