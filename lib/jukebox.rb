@@ -10,7 +10,7 @@ def help
 end
 
 def play(songs)
-  input = gets.strip
+  input = gets.chomp
   
   if input.to_i > 0 && input.to_i <= songs.length
     puts "Playing #{song[input - 1]}"
