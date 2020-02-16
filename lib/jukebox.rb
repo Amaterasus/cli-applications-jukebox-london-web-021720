@@ -10,6 +10,7 @@ def help
 end
 
 def play(songs)
+  
   input = gets.chomp
   
   if input.to_i > 0 && input.to_i <= songs.length
