@@ -48,7 +48,8 @@ def run(songs)
     else
       puts "invalid Command "
     end
-      
+    puts "Please enter a command:"
+    input = gets.strip
   end
   
   exit_jukebox
