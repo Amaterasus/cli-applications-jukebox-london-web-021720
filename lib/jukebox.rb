@@ -11,7 +11,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  input = gets.chomp
+  input = gets.strip
   
   if input.to_i > 0 && input.to_i <= songs.length
     puts "Playing #{song[input.to_i-1]}"
