@@ -10,7 +10,7 @@ def help
 end
 
 def play(songs)
-  
+  puts "Please enter a song name or number:"
   input = gets.chomp
   
   if input.to_i > 0 && input.to_i <= songs.length
